@@ -1,7 +1,3 @@
-const search = document.getElementById("search");
-const city = document.getElementById("city");
-
-
 const form = document.querySelector('#searchForm');
 form.addEventListener('submit', async function (e) {
     e.preventDefault();
